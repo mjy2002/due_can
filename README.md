@@ -1,13 +1,11 @@
 due_can
 =======
 
-Object oriented canbus library for Arduino Due compatible boards
+面向对象的 canbus 库，用于 Arduino Due 兼容板
 
-Implements both CAN buses exposed by Due hardware.
+实现 Due 硬件公开的两个 CAN 总线。
 
-This library requires the can_common library now. That library
-is a common base that other libraries can be built off of to allow
-a more universal API for CAN. 
+此库现在需要 can_common 库。那个库 是其他库可以构建的通用基础，以允许 一个更通用的 CAN API。
 
-The needed can_common library is found here:
+所需的 can_common 库位于：
 https://github.com/collin80/can_common
